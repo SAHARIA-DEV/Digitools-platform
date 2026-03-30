@@ -32,7 +32,7 @@ const Steps = () => (
         <article key={step.id} className="bg-white rounded-2xl shadow-lg p-8 text-left">
           <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-violet-100 text-violet-600 text-xl font-bold mb-4">{step.id}</div>
           <div className="text-6xl mb-4">{step.icon}</div>
-          <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+          <h3 className="text-xl text-black font-semibold mb-2">{step.title}</h3>
           <p className="text-slate-600 text-sm">{step.description}</p>
         </article>
       ))}

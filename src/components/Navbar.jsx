@@ -41,8 +41,16 @@ const Navbar = ({ cartItemsLength, onCartClick }) => {
                             className="text-sm px-3 py-1 rounded-lg border border-slate-700 bg-white/10 text-white hover:bg-white/20 transition flex items-center gap-1"
                             aria-label="Open cart"
                         >
+
+                            <span className="text-xs font-bold">{cartItemsLength}</span>
                             <span className="text-base">🛒</span>
-                            <span>{cartItemsLength} Cart</span>
+                        </button>
+                        <button
+                            onClick={onCartClick}
+                            className="btn btn-sm btn-outline btn-secondary"
+                            aria-label=""
+                        >
+                            LogIn
                         </button>
                         <button className="btn btn-sm bg-gradient-to-r from-fuchsia-600 to-violet-500 text-white border-0 hover:shadow-lg transition-all duration-200">
                             Get Started

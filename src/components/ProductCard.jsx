@@ -17,7 +17,7 @@ const ProductCard = ({ product, onAddToCart }) => {
           {product.tag}
         </span>
       </div>
-      <h3 className="text-xl font-bold mb-2">{product.name}</h3>
+      <h3 className="text-xl font-bold text-black mb-2">{product.name}</h3>
       <p className="text-slate-600 text-sm mb-4">{product.description}</p>
       <div className="mb-4">
         <span className="text-3xl font-extrabold text-slate-900">${product.price}</span>
