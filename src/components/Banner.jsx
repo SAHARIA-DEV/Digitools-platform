@@ -18,7 +18,7 @@ const Banner = ({ onCartClick, onExploreClick }) => {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <button onClick={onExploreClick} className="btn rounded-3xl cursor-pointer bg-gradient-to-r from-fuchsia-600 to-violet-500 border-0 text-white px-8 py-3 shadow-lg">Explore Products</button>
-              <button onClick={onCartClick} className="btn cursor-pointer rounded-3xl btn-outline border-violet-500 text-violet-900 hover:bg-violet-400 px-8 py-3 inline-flex items-center gap-2">
+              <button onClick={onCartClick} className="btn border cursor-pointer rounded-3xl btn-outline border-violet-500 text-violet-900 hover:bg-violet-400 px-8 py-3 inline-flex items-center gap-2">
                 <span className="h-5 w-5 inline-flex items-center justify-center rounded-full bg-violet-100 text-violet-600">
                   {/* Play icon */}
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">

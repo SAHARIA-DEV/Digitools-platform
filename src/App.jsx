@@ -113,7 +113,7 @@ function App() {
               <li>✅ Community support</li>
               <li>✅ 1 project per month</li>
             </ul>
-            <button className="btn w-full bg-gradient-to-r from-fuchsia-600 to-violet-500 border-0">Get Started Free</button>
+            <button className="btn w-full bg-gradient-to-r cursor-pointer rounded-2xl from-fuchsia-600 to-violet-500 border-0">Get Started Free</button>
           </article>
           <article className="bg-white text-slate-900 p-6 rounded-2xl border border-violet-500 shadow-xl">
             <span className="inline-block px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold mb-3">Most Popular</span>
@@ -127,7 +127,7 @@ function App() {
               <li>✅ Unlimited projects</li>
               <li>✅ Advanced analytics</li>
             </ul>
-            <button className="btn w-full bg-violet-600 text-white border-0">Start Pro Trial</button>
+            <button className="btn w-full cursor-pointer rounded-2xl bg-yellow-200 text-black border-0">Start Pro Trial</button>
           </article>
           <article className="bg-slate-800 text-white p-6 rounded-2xl border border-slate-700">
             <h4 className="text-2xl font-bold mb-2">Enterprise</h4>
@@ -140,7 +140,7 @@ function App() {
               <li>✅ Dedicated support</li>
               <li>✅ SLA guarantee</li>
             </ul>
-            <button className="btn w-full bg-transparent border border-violet-500 text-white hover:bg-violet-600">Contact Sales</button>
+            <button className="btn cursor-pointer rounded-2xl w-full bg-transparent border border-violet-500 text-white hover:bg-violet-600">Contact Sales</button>
           </article>
         </div>
       </section>

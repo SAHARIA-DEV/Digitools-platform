@@ -27,11 +27,11 @@ const Navbar = ({ cartItemsLength, onCartClick }) => {
 
                     <div className={`absolute top-16 left-0 right-0 bg-slate-950/95 backdrop-blur-lg md:static md:bg-transparent md:backdrop-blur-0 md:flex md:items-center md:gap-8 text-sm font-medium transition-all duration-300 ${menuOpen ? 'block' : 'hidden md:block'}`}>
                         <div className="flex flex-col md:flex-row md:items-center gap-3 p-4 md:p-0">
-                            <button className="text-slate-200 hover:text-violet-300" onClick={() => setMenuOpen(false)}>Products</button>
-                            <button className="text-slate-200 hover:text-violet-300" onClick={() => setMenuOpen(false)}>Features</button>
-                            <button className="text-slate-200 hover:text-violet-300" onClick={() => setMenuOpen(false)}>Pricing</button>
-                            <button className="text-slate-200 hover:text-violet-300" onClick={() => setMenuOpen(false)}>Testimonials</button>
-                            <button className="text-slate-200 hover:text-violet-300" onClick={() => setMenuOpen(false)}>FAQ</button>
+                            <button className="text-slate-200 hover:text-violet-300 cursor-pointer" onClick={() => setMenuOpen(false)}>Products</button>
+                            <button className="text-slate-200 hover:text-violet-300 cursor-pointer" onClick={() => setMenuOpen(false)}>Features</button>
+                            <button className="text-slate-200 hover:text-violet-300 cursor-pointer" onClick={() => setMenuOpen(false)}>Pricing</button>
+                            <button className="text-slate-200 hover:text-violet-300 cursor-pointer" onClick={() => setMenuOpen(false)}>Testimonials</button>
+                            <button className="text-slate-200 hover:text-violet-300 cursor-pointer" onClick={() => setMenuOpen(false)}>FAQ</button>
                         </div>
                     </div>
 
@@ -47,12 +47,12 @@ const Navbar = ({ cartItemsLength, onCartClick }) => {
                         </button>
                         <button
                             onClick={onCartClick}
-                            className="btn btn-sm btn-outline btn-secondary"
+                            className="btn cursor-pointer btn-sm btn-outline btn-secondary"
                             aria-label=""
                         >
                             LogIn
                         </button>
-                        <button className="btn btn-sm bg-gradient-to-r from-fuchsia-600 to-violet-500 text-white border-0 hover:shadow-lg transition-all duration-200">
+                        <button className="btn cursor-pointer btn-sm bg-gradient-to-r from-fuchsia-600 to-violet-500 text-white border-0 hover:shadow-lg transition-all duration-200">
                             Get Started
                         </button>
                     </div>
